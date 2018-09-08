@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0 1rem;
+  font-family: sans-serif;
+}
+
+.header-container, .persons-container {
+  display: flex;
+}
+
+.header-container > div {
+  width: 16.6666666666%;
+  display: flex;
+  padding: .5rem;
+  font-size: 1.6rem;
+}
+
+.persons-container {
+  flex-direction: column;
+}
+
+.persons-container > div {
+  width: 100%;
+  display: flex;
+}
+
+.persons-container > div:nth-child(odd) {
+  background: #c2c2c2;
+}
+
+.persons-container .person-item {
+  display: flex;
+}
+
+.persons-container .person-item > div {
+  width: 16.6666666666%;
+  display: flex;
+  align-items: center;
+  padding: 1rem .5rem;
+}
+.persons-container .person-item form {
+  display: flex;
+  width: 100%;
+}
+
+.persons-container .person-item form > div {
+  width: 16.6666666666%;
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+}
+
+.person-form {
+  margin-top: 1rem;
+}
+
+.btn-actions > button {
+  width: 50%;
+}
